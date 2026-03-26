@@ -5,7 +5,7 @@ This repository contains small Java programs that I build as part of my learning
 ## 📌 Purpose
 
 - Refresh and strengthen core Java concepts
-- Practice problem-solving
+- Practice problem-solving 1
 - Build consistency by coding every day
 - Gradually improve coding structure and logic
 
