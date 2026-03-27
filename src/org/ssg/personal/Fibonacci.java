@@ -1,9 +1,19 @@
 package org.ssg.personal;
 
+import java.util.Scanner;
+
 public class Fibonacci {
      public static void main(String[] args) {
-       int N=20;
+       int N;
         StringBuilder sb = new StringBuilder();
+        System.out.println("Enter the number of Fibonacci terms to generate: ");
+        try (Scanner scanner = new Scanner(System.in)) {
+            N = scanner.nextInt();
+        }
+        catch (Exception e) {
+            System.out.println("Invalid input. Please enter a valid integer.");
+            return;
+        }
         long prev=0;
         long curr=1;
         long next;
